@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
-
 import sys
 
 
-KG_TO_LB = 2.2046226218
+KG_TO_LB = 2.2046226218487757
+LB_TO_KG = 0.45359237
 
 
 def main() -> int:
@@ -18,9 +17,5 @@ def main() -> int:
         return 1
 
     print(f"{value:g} kg = {value * KG_TO_LB:.2f} lb")
-    print(f"{value:g} lb = {value / KG_TO_LB:.2f} kg")
+    print(f"{value:g} lb = {value * LB_TO_KG:.2f} kg")
     return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

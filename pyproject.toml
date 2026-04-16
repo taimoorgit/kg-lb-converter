@@ -1,0 +1,17 @@
+[project]
+name = "kg-lb-converter"
+version = "0.1.0"
+description = "Minimal CLI for kilogram and pound conversions"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+converter = "kg_lb_converter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
