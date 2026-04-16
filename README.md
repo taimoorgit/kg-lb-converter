@@ -4,6 +4,19 @@ Minimal Python CLI for common metric and imperial conversions.
 
 This is a standard `uv` project with a console entry point named `converter`.
 
+## Supported Conversions
+
+- `kg <-> lb`
+- `g <-> oz`
+- `mg <-> oz`
+- `mL <-> fl oz`
+- `L <-> gal`
+- `ng/dL <-> nmol/L`
+- `km <-> mi`
+- `m <-> ft`
+- `cm <-> in`
+- `C <-> F`
+
 ## Usage
 
 Run the CLI with `uv`:
